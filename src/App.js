@@ -1,20 +1,10 @@
-import React, {
-  useEffect
-} from 'react';
-import {
-  Router,
-  Route,
-  Switch,
-  Redirect
-} from 'react-router-dom';
-import {
-  useDispatch,
-  useSelector
-} from 'react-redux';
+import React, { useEffect } from 'react';
+import { Router, Route, Switch, Redirect } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
 import { alertActions } from './actions';
 import { PrivateRoute } from './components';
-import { history } from './helpers'
-import { HomePage } from './HomePage'
+import { history } from './helpers';
+import { HomePage } from './HomePage';
 import { LoginPage } from './LoginPage';
 import { RegisterPage } from './RegisterPage';
 import './App.css';
